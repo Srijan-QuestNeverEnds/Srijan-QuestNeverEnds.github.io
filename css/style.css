@@ -1,0 +1,245 @@
+
+html {
+	margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+    -webkit-font-smoothing: anitialised;
+}
+
+body, select, input, textarea {
+    color: #333;
+}
+
+
+body {
+	font: 13px sans-serif;
+	line-height: 18px;
+	color: #555;
+	background-color: white;
+}
+
+select, input, textarea {
+    font: 99% sans-serif;
+    background-color: white;
+    display: inline-block;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.4) inset,0 1px 0 rgba(255,255,255,0.9);
+    padding: 5px;
+    border: 1px solid #aaa;
+}
+
+input, select {
+    vertical-align: middle;
+    background: #fff;
+}
+
+a {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+    outline: none;
+    color: #07a;
+    text-decoration: none;
+}
+
+a:link {
+    -webkit-tap-highlight-color: #07a;
+}
+
+a:visited {
+    color: #069;
+}
+
+.logo {
+    float: left;
+    padding: 10px 1em 10px 0;
+    width: 184px;
+    height: 30px;
+    border-right: 1px solid #e5e5e5;
+}
+
+}
+.logo span {
+    display: block;
+    text-indent: -999em;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    color: transparent;
+    line-height: 30px;
+}
+
+#site-header, #site-footer, #site-sec-header, #site-copyright-footer {
+    width: 100%;
+    min-width: 1044px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-shadow: rgba(0,0,0,0.6) 0 0 0,rgba(255,255,255,0.6) 0 1px 0;
+    margin: 0;
+}
+
+
+#site-header, #site-footer {
+	background-color: #ccc;
+	background-size: 100%;
+	background-image: -linear-gradient(#f5f5f5,#ccc);
+	position: relative;
+}
+
+#site-header {
+    z-index: 100;
+    border-top: none !important;
+    border-bottom: 1px solid #aaa;
+    text-align: left;
+}
+
+#site-header .wrapper, #site-footer .wrapper {
+    width: 1024px;
+    margin: 0 auto;
+    padding: 0 10px;
+    min-height: 50px;
+}
+
+#site-header a, #site-sec-header a, #site-footer a, #site-copyright-footer a, #teconsent {
+    color: #333;
+    margin-left: 1em;
+    font-size: 13px;
+    -moz-transition: all 0.15s ease-in-out;
+    -o-transition: all 0.15s ease-in-out;
+    -webkit-transition: all 0.15s ease-in-out;
+    transition: all 0.15s ease-in-out;
+}
+
+#site-header nav a {
+    font-weight: bold;
+}
+
+#site-header a:visited, #site-sec-header a:visited, #site-footer a:visited, #site-copyright-footer a:visited, #teconsent:visited {
+    color: #333;
+}
+
+#site-header a:first-child, #site-sec-header a:first-child, #site-footer a:first-child, #site-copyright-footer a:first-child, #teconsent:first-child {
+    margin-left: 0;
+}
+
+#site-header a.featured-link {
+    color: #fff;
+    padding: 3px 5px;
+    border: 1px solid #c13828;
+    text-shadow: none;
+    background: #d14836;
+    background-size: 100%;
+    background-image: linear-gradient(#dd4b39,#d14836);
+    border-radius: 3px;
+}
+
+#site-header a.featured-link.blue {
+    float: right;
+    margin-right: 20px;
+    margin-top: -5px;
+    border: 1px solid #104c75;
+    background: #0477aa;
+    background-size: 100%;
+    background-image: linear-gradient(#156492,#0477aa);
+    border-radius: 3px;
+}
+
+#site-header form {
+    float: left;
+    padding: 10px 1em 0 1em;
+    margin-left: 0;
+    height: 40px;
+    border-left: 1px solid #aaa;
+}
+
+#site-header input {
+    margin: 0;
+    width: 170px;
+    font-size: 14px;
+    font-weight: lighter;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+}
+
+#site-header nav {
+    padding: 15px 0 0 1em;
+    height: 35px;
+    float: left;
+}
+
+#site-header #nav-site {
+    width: 460px;
+    border-right: 1px solid #e5e5e5;
+}
+
+#site-header #nav-account {
+    border-left: 1px solid #aaa;
+    text-align: right;
+    width: 115px;
+    padding-top: 11px;
+    padding-bottom: 4px;
+}
+
+#site-header #nav-account .logged_out {
+    white-space: nowrap;
+    margin-top: 3px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+::selection {
+    background: #07a;
+    color: #fff;
+    text-shadow: none;
+}
