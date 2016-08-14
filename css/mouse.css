@@ -1,0 +1,22 @@
+img{margin:5px 10px;border:0}
+.left{float:left}
+.right{float:right}
+.center{margin-left:auto;margin-right:auto}
+.txstrike{text-decoration:line-through}
+.txcenter{text-align:center}
+.clear{clear:both}
+hr.s{clear:both;visibility:hidden;margin:0;padding:0;height:0;width:0}
+#dot0{width:1px;height:1px;position:absolute;top:0;left:0;visibility:hidden;}
+#dot1{width:32px;height:60px;position:absolute;top:0;left:0}
+#dot2{width:32px;height:60px;position:absolute;top:0;left:0}
+#dot3{width:28px;height:60px;position:absolute;top:0;left:0}
+#dot4{width:35px;height:60px;position:absolute;top:0;left:0}
+#dot5{width:51px;height:52px;position:absolute;top:0;left:0}
+#dot6{width:30px;height:62px;position:absolute;top:0;left:0}
+#dot6.kangourou01{width:68px;height:60px;position:absolute;top:0;left:0}
+#dot7{width:32px;height:57px;position:absolute;top:0;left:0}
+#dot8{width:37px;height:65px;position:absolute;top:0;left:0}
+#dot9{width:22px;height:34px;position:absolute;top:0;left:0}
+.centertext{text-align:center}
+.spacer {clear:both;visibility:hidden}
+ul.line li{display:inline}
